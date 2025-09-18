@@ -66,4 +66,8 @@ export class ExternalMonitorService {
     private notifyScreenMirroring(): void {
         this.notificationService.showNotification("⚠️ Screen mirroring detected! Please disconnect the external monitor.", "warning");
     }
+
+    private testMethod(): void {
+        return "success"
+    }
 }
